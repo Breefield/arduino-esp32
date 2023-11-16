@@ -272,3 +272,5 @@ endif()
 if(NOT CONFIG_ARDUINO_SELECTIVE_COMPILATION OR CONFIG_ARDUINO_SELECTIVE_LITTLEFS)
     maybe_add_component(esp_littlefs)
 endif()
+
+project(arduino-esp32)
